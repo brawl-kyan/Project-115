@@ -1,0 +1,19 @@
+h3{
+ font-size: 25px !important;   
+}
+
+.btn-danger:hover
+{
+background-color: coral;    
+}
+canvas
+{
+animation-name: blob;
+animation-duration: 4s;
+animation-iteration-count: infinite;    
+}
+
+@keyframes blob {
+ from {box-shadow: 2px 2px 38px goldenrod;}
+ to {box-shadow:2px 2px 38px bisque;}   
+}
